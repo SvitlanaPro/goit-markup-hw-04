@@ -411,6 +411,9 @@ body {
   gap: 120px;
   align-items: baseline;
 }
+.footer-logo-text{
+  margin-right: 120px
+}
 
 .footer .logo {
   margin-bottom: 16px;
@@ -484,6 +487,8 @@ body {
   border-color: transparent;
   color: var(--color-white);
   background-color: var(--color-ocean);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 /* Portfolio gallery */
 .portfolio-list {
@@ -491,6 +496,10 @@ body {
   flex-wrap: wrap;
   gap: 24px;
   row-gap: 48px;
+}
+
+.portfolio-link {
+  display: block;
 }
 /* .portfolio-list-item {
   margin-bottom: 48px;
